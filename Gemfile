@@ -61,3 +61,4 @@ group :development do
  gem 'devise'
  gem 'figaro', '1.0'
  gem 'pundit'
+ gem 'coffee-rails'

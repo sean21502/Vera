@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/seanhite/Desktop/Vera/vera/spec/controllers/welcome_controller_spec.rb": [
+      "/Users/seanhite/Desktop/Vera/vera/spec/controllers/users_controller_spec.rb": [
         1,
         null,
         1,
@@ -9,14 +9,7 @@
         1,
         1,
         1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
+        0,
         null,
         null,
         null,
@@ -546,12 +539,18 @@
       "/Users/seanhite/Desktop/Vera/vera/config/routes.rb": [
         1,
         1,
+        null,
+        1,
+        null,
+        1,
+        null,
         1,
         null,
         1,
         null,
         1,
         null,
+        1,
         null,
         null
       ],
@@ -572,8 +571,53 @@
         1,
         null
       ],
+      "/Users/seanhite/Desktop/Vera/vera/app/helpers/user_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/seanhite/Desktop/Vera/vera/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
       "/Users/seanhite/Desktop/Vera/vera/app/helpers/welcome_helper.rb": [
         1,
+        null
+      ],
+      "/Users/seanhite/Desktop/Vera/vera/app/controllers/users_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/seanhite/Desktop/Vera/vera/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/seanhite/Desktop/Vera/vera/spec/controllers/welcome_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/seanhite/Desktop/Vera/vera/app/controllers/welcome_controller.rb": [
@@ -585,7 +629,19 @@
         null,
         null
       ],
-      "/Users/seanhite/Desktop/Vera/vera/app/controllers/application_controller.rb": [
+      "/Users/seanhite/Desktop/Vera/vera/spec/helpers/users_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         1,
         null
@@ -614,6 +670,13 @@
         1,
         null
       ],
+      "/Users/seanhite/Desktop/Vera/vera/spec/views/users/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
       "/Users/seanhite/Desktop/Vera/vera/spec/views/welcome/about.html.erb_spec.rb": [
         1,
         null,
@@ -629,6 +692,6 @@
         null
       ]
     },
-    "timestamp": 1512236031
+    "timestamp": 1512253981
   }
 }

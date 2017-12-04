@@ -4,4 +4,7 @@
   <div class="col-md-3">
     <p>How are you <%= @current_user.email %> doing today?</p>
   </div>
+    <%= render 'items/form', item: Item.new, user: @current_user %>
+    
+    <%= render @items %>
 </div>

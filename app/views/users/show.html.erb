@@ -4,7 +4,7 @@
   <div class="col-md-3">
     <p>How are you <%= @current_user.email %> doing today?</p>
   </div>
-    <%= render partial: "items/form", locals: {item: @items} %>
+    <%= render 'items/form', item: Item.new, user: @current_user %>
     
-    <%= render partial: "items/item", locals: {item: @items} %>
+    <%= render @items %>
 </div>

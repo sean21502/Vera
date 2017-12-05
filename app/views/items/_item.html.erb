@@ -1,3 +1,4 @@
 <tbody>
     <td><%= item.name %></td>
 </tbody>
+    <%= link_to "", user_item_path(current_user, item), method: :delete, class: 'glyphicon glyphicon-ok' %>

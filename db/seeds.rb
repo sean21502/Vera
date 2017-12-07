@@ -14,6 +14,7 @@ users = User.all
 		user:  users.sample,
 		name:  Faker::Name.name,
 	)
+	item.update_attribute("created_at", Date.today - rand(5..10))
 end
 items = Item.all
 
